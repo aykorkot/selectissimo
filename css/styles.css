@@ -1,0 +1,206 @@
+.global {
+  /*width: 91%;margin: 0 auto;*/
+  padding: 0 45px; }
+  .global header {
+    padding: 20px 0px; }
+    .global header .logo {
+      padding: 0; }
+    .global header .demande .tel a {
+      text-decoration: none;
+      color: #3d3c68;
+      font-weight: bold;
+      padding-left: 14px; }
+      .global header .demande .tel a.hvr-radial-out:hover {
+        color: #eb4; }
+    .global header .choix-demande {
+      /*float: right;*/
+      padding: 0; }
+    .global header .demande .choix-demande button {
+      background: #3d3c68;
+      border: none;
+      padding: 5px 15px;
+      border-left: 10px solid #fff; }
+    .global header .demande .choix-demande h1 {
+      font-size: 9px;
+      color: #fff;
+      font-weight: bold; }
+    .global header .demande .tel {
+      float: right;
+      padding: 10px 0px; }
+  .global .container {
+    width: 100%; }
+    .global .container img {
+      width: 100%; }
+    .global .container .bloc1 {
+      background-image: url(../images/img1.png);
+      height: 225px;
+      width: 100%; }
+      .global .container .bloc1 a h1 {
+        font-size: 29px;
+        font-family: monospace;
+        color: #fff; }
+        .global .container .bloc1 a h1:hover {
+          color: #eb4; }
+    .global .container .img-sejour {
+      padding: 8px 0px; }
+      .global .container .img-sejour div {
+        padding: 0px; }
+      .global .container .img-sejour .prof h1 {
+        font-size: 30px;
+        font-family: monospace;
+        color: #fff;
+        margin: 0; }
+      .global .container .img-sejour .prof .shadow1 {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.49);
+        padding: 0px 10px; }
+      .global .container .img-sejour .shadow1 a {
+        text-decoration: none; }
+        .global .container .img-sejour .shadow1 a small {
+          font-size: 15px;
+          font-family: monospace;
+          color: #fff; }
+      .global .container .img-sejour .etudiant .shadow2 a h1 {
+        font-size: 30px;
+        font-family: monospace;
+        color: #fff;
+        margin: 0px; }
+        .global .container .img-sejour .etudiant .shadow2 a h1:hover {
+          color: #eb4; }
+      .global .container .img-sejour .prof .shadow1 a h1:hover {
+        color: #eb4; }
+
+/* HEADER */
+/* CONTAINER */
+.container .img-sejour .etudiant ul li a:hover {
+  color: #eb4; }
+
+.global .container .img-sejour .etudiant .shadow2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.49);
+  padding: 0px 10px; }
+  .global .container .img-sejour .etudiant .shadow2 ul {
+    margin: 0;
+    float: right;
+    /* position: absolute;
+     bottom: 5px;
+     right: 15px;*/
+    text-align: right; }
+.global .container .img-sejour .etudiant ul li {
+  list-style: none; }
+  .global .container .img-sejour .etudiant ul li a {
+    color: #fff;
+    text-decoration: none; }
+    .global .container .img-sejour .etudiant ul li a.hvr-radial-out:hover {
+      color: #eb4; }
+    .global .container .img-sejour .etudiant ul li a:after {
+      content: '>';
+      padding-left: 2px;
+      font-size: 15px; }
+.global .container .img-sejour img {
+  width: 100%; }
+.global .global ul {
+  margin: 0;
+  padding: 0 20%; }
+  .global .global ul li {
+    text-align: center;
+    list-style: none;
+    padding: 0; }
+    .global .global ul li a {
+      text-decoration: none;
+      font-size: 10px;
+      font-family: inherit;
+      color: #343464;
+      font-weight: bold; }
+      .global .global ul li a.hvr-radial-out:hover {
+        color: #eb4; }
+.global .global .webleader {
+  text-align: center; }
+  .global .global .webleader a {
+    text-decoration: none; }
+    .global .global .webleader a p {
+      font-size: 10px;
+      font-family: inherit;
+      font-weight: bold;
+      color: #343464;
+      margin: 0; }
+      .global .global .webleader a p.hvr-radial-out:hover {
+        color: #eb4; }
+
+/* FOOTER */
+/* BREAK POINT */
+@media only screen and (min-width: 1024px) {
+  /* desktops */
+    /*    .container .img-sejour .etudiant ul {
+    margin: 0;
+    float: right;
+    position: absolute;
+    bottom: 5px;
+    text-align: right;
+    left: 188px;
+    padding:0px;
+	}*/
+  header .demande .choix-demande button {
+    width: 50%; } }
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* tablets */
+  .global .global ul {
+    padding: 0; }
+
+  header .demande {
+    padding: 15px 0; }
+    header .demande .tel {
+      float: none !important;
+      padding: 10px 0px;
+      text-align: center; }
+    header .demande .choix-demande {
+      text-align: center;
+      float: none; }
+      header .demande .choix-demande button {
+        width: 75%;
+        margin: 10px 0px; }
+
+  .global .container .img-sejour .etudiant .shadow2 ul li a, .global .container .img-sejour .shadow1 a small {
+    font-size: 3vw; }
+  .global .container .img-sejour .etudiant .shadow2 a h1, .global .container .img-sejour .prof .shadow1 a h1 {
+    font-size: 5vw; }
+  .global .container .bloc1 a h1 {
+    font-size: 4vw; }
+
+  header .demande .tel a {
+    font-size: 3vw;
+    padding: 0 35px; }
+  header .demande .choix-demande button h1 {
+    font-size: 2vw !important; }
+
+  .global .global ul li a, .global .global .webleader a p {
+    font-size: 2vw;
+    padding: 10px 0; } }
+@media only screen and (max-width: 767px) {
+  /* phones */
+  header .demande .choix-demande button {
+    background: #3d3c68;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-bottom: 12px solid #fff; }
+  header .choix-demande {
+    margin-left: 20px; }
+  header .demande .tel {
+    text-align: center; }
+
+  .global .container .img-sejour .etudiant a h1 {
+  /*  position: absolute;
+    bottom: -10px;
+	}*/ }
+  .global .container .img-sejour .prof h1 {
+    /* position: absolute;
+     bottom: -5px;*/ }
+  .global .container .img-sejour .etudiant ul li {
+    line-height: 17px; } }
+
+/*# sourceMappingURL=styles.css.map */
