@@ -15,6 +15,7 @@
 .header .bar-item .items .list-items li a{
 	color:#d3d3d4;
 	text-decoration: none;
+	font-size: 14px;
 }
 .header .bar-item .items .list-items {
 	/*padding: 10px 0;*/
@@ -64,10 +65,11 @@
 	padding: 0;
 	position: absolute;
     top: 39px;
-    padding: 0 45px;
+    padding: 0 80px;
+    background: rgba(0, 0, 0, 0.51)
 }
 .header .nav .logo-header, .header .nav .icon-phone{
-	padding: 25px 0px;
+	padding: 25px 25px;
 }
 .header .nav .icon-phone p{
 	font-size: 16px;
@@ -81,6 +83,24 @@
     padding: 5px 9px 5px 9px;
 }
 
+.header .nav .nav-item{
+	text-align: center;
+}
+.header .nav .nav-item ul{
+	display: inline-block;
+	padding: 0;
+}
+.header .nav .nav-item ul li{
+	float: left;
+    list-style: none;
+    padding-right: 15px;
+}
+.header .nav .nav-item ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
 .header .flexslider{
 	border: none;
 
@@ -91,9 +111,6 @@
 }
 
 
-
-
-
 /*--- list items hover ---*/      
 .header .bar-item .items .list-items .hvr-underline-from-center:before{
 	    background: #dcdcdc;
@@ -101,6 +118,18 @@
 }
 .header .bar-item .items .list-items li a:hover{
 	    color: #f7f7f7;
+}
+.header .nav .nav-item .hvr-underline-from-center:before{
+	  background: #dcdcdc;
+	    height: 1px;
+}
+.header .nav .nav-item .hvr-trim:before{
+	top: -6px;
+    left: -12px;
+    right: -12px;
+    bottom: -3px;
+    border:#dfdcda solid 2px;
+
 }
 
 /*--- END OF list items hover ---*/  
@@ -136,8 +165,16 @@
 	.header .nav{
 		position: absolute;
     	top: 75px;
-    	padding: 0 100px;
+    	padding: 0 75px;
 	}
+	.header .bar-item .items{
+		    padding: 9px 0px 9px 40px;
+	}
+	.header .nav .icon-phone img{
+		padding: 0px 7px;
+		float:none;
+	}
+	
 	.header .bar-item .items .list-items li a{
 		font-size: 15px;
 	}
@@ -172,6 +209,15 @@
 	font-style: normal};
 	
 }
+
+@font-face {
+	font-family: 'Hind', sans-serif;
+	
+	src: url('https://fonts.googleapis.com/css?family=Hind:400,500,600,700');
+}
+.header .nav .nav-item ul li a, .header .bar-item .items .list-items li a {
+	  font-family: "Hind", serif;
+	}
 
 
 
