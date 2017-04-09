@@ -48,7 +48,7 @@
 }
 .header .bar-item .icn-media{
 	background: #924d9c;
-	padding: 10px 0px 10px 20px;
+	padding: 7px 0px 6px 25px;
 }
 .header .bar-item .search{
     padding: 1px 20px;
@@ -56,8 +56,11 @@
 .header .bar-item .search .navbar-form{
 	padding: 2px 0px;
 }  
-.header .bar-item .icn-media a{
-	padding: 0 9px;
+
+.header .bar-item .icn-media a .fa{
+	font-size: 25px;
+	color: #000;
+    padding: 0 5px;
 }  
 
 
@@ -103,15 +106,48 @@
 
 .header .flexslider{
 	border: none;
-
+	margin: 0;
+}
+.flex-direction-nav a:before{
+	color: #fff
+}
+.flex-direction-nav .flex-nav-next a{
+	right: 25.5% !important;
+    top: 47% !important;
+    text-align: left !important;
+}
+.flex-direction-nav .flex-nav-prev a{
+	top: 57% !important;
+	left: 71.5%;
+	text-align: left !important;
 }
 .header .flexslider .flex-direction-nav a{
 	height: 50px;
+}
+.flex-control-nav{display: none}
 
+.header .section-middle{
+	position: absolute;
+	top: 45%;
+	border-right: 60px solid rgba(0, 0, 0, 0.65);
+	margin: 0 25%;
+	background: rgba(122, 63, 103, 0.72);
+}
+.header .section-middle .section-middle-price .price{
+	text-align: center;
+}
+.header .section-middle .section-middle-price .price h2, .header .section-middle .section-middle-price .title-price p, .header .section-middle .section-middle-price .price p{
+	margin: 0;
+}
+.header .section-middle .section-middle-title h2,
+.header .section-middle .section-middle-price .title-price p,
+.header .section-middle .section-middle-price .price h2,
+.header .section-middle .section-middle-price .price p {
+	color: #fff;
 }
 
 
-/*--- list items hover ---*/      
+	/*--- list items hover ---*/      
 .header .bar-item .items .list-items .hvr-underline-from-center:before{
 	    background: #dcdcdc;
 	    height: 1px;
@@ -131,11 +167,41 @@
     border:#dfdcda solid 2px;
 
 }
+.header .bar-item .icn-media a .fa:hover{
+	color: #fff;
+}  
 
-/*--- END OF list items hover ---*/  
+	/*--- END OF list items hover ---*/  
 
 
 /*END OF HEADER STYLES*/
+
+
+
+/* CONTAINER STYLES */
+.container {
+	padding: 0px;
+	float: none;
+}
+.container .container-fluid .plateforme .btn-inscription button{
+	background-color: #924d9c;
+    border-color: #924d9c;
+    padding: 3px 20px;
+}
+.container .container-fluid .plateforme .btn-inscription{
+	text-align: center;
+}
+  
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -178,22 +244,37 @@
 	.header .bar-item .items .list-items li a{
 		font-size: 15px;
 	}
-	
-	
-	
+	.header .nav .nav-item ul li a{
+		font-size: 11px;
+	}
+	.header .section-middle{
+	    top: 19%;
+    	margin: 0px 16%
+	}
+	.flex-direction-nav .flex-nav-prev a{
+		left: 79.5%;
+	    top: 58% !important;
+	}
+	.flex-direction-nav .flex-nav-next a{
+	    right: 16.5% !important;
+    	top: 72% !important;
+	}
 	
 }
 
 @media only screen and (max-width: 767px) {
   /* phones */
+  	.header .section-middle{
+  		top: 15%;
+  	}
 
  }
 
+ 
+
+
 
 /*END OF BREAK POINT*/
-
-
-
 
 
 /*FONTS*/
@@ -215,9 +296,20 @@
 	
 	src: url('https://fonts.googleapis.com/css?family=Hind:400,500,600,700');
 }
-.header .nav .nav-item ul li a, .header .bar-item .items .list-items li a {
+	.header .nav .nav-item ul li a, .header .bar-item .items .list-items li a {
 	  font-family: "Hind", serif;
 	}
+	.header .section-middle .section-middle-title h2,
+	.header .section-middle .section-middle-price .title-price p,
+	.header .nav .nav-item ul li a,
+	.header .bar-item .items .list-items li a,
+	.header .section-middle .section-middle-price .price h4,
+	.header .section-middle .section-middle-price .price p,
+	.container .container-fluid .plateforme h1, 
+	.container .container-fluid .plateforme p {
+		font-family: "Hind", serif;
+	}
+	
 
 
 
