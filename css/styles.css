@@ -1,4 +1,6 @@
-
+.body{
+	background: #ebebeb;
+}
 
 /*HEADER STYLES*/
 
@@ -113,11 +115,11 @@
 }
 .flex-direction-nav .flex-nav-next a{
 	right: 25.5% !important;
-    top: 47% !important;
+    top: 49% !important;
     text-align: left !important;
 }
 .flex-direction-nav .flex-nav-prev a{
-	top: 57% !important;
+	top: 59% !important;
 	left: 71.5%;
 	text-align: left !important;
 }
@@ -182,15 +184,154 @@
 .container {
 	padding: 0px;
 	float: none;
+	margin: 0 auto;
+    width: 85%;
 }
+
+
+
+.container .container-fluid .nav-content{
+	padding: 35px 0;
+}
+
 .container .container-fluid .plateforme .btn-inscription button{
 	background-color: #924d9c;
     border-color: #924d9c;
     padding: 3px 20px;
 }
+.container .container-fluid .plateforme h1{
+    padding: 0 35px;
+    color: #924d9c;
+}
 .container .container-fluid .plateforme .btn-inscription{
 	text-align: center;
 }
+
+.container .container-fluid .form .well{
+	background: #595959;
+}
+
+.container .container-fluid .form .well fieldset legend{
+	color: #fff;
+}
+
+.container .container-fluid .form .well, .container .form .well .form-group{
+	margin: 0;
+}
+
+.container .container-fluid .form .well .form-group .input-group label{
+	padding: 0 30px;
+	font-weight: 100;
+    color: #fff;
+}
+.container .container-fluid .form .well .form-group .select-group select{
+	width: 70%;
+    margin: 15px 0;
+}
+.container .container-fluid .form .well .form-group button{
+    float: right;
+    position: relative;
+    top: 30px;
+    padding: 0px 55px;
+    background-color: #924d9c;
+    border-color: #924d9c;
+}
+.container .container-fluid .section-actualites .actualites h1{
+ 	border-bottom: 1px solid gray;
+    width: 30%;
+}
+   
+.container .container-fluid .section-actualites .actualites h1, 
+.container .container-fluid .section-actualites .service h1{
+	color: #924d9c;
+
+}
+.container .container-fluid .section-actualites .actualites .section-vente .vente h2, 
+.container .container-fluid .section-actualites .actualites .section-ouverture .ouverture h2{
+    font-size: 16px;
+    font-weight: 700;
+  	margin-top: 0px;
+}
+.container .container-fluid .section-actualites .actualites .section-vente .vente h5, 
+.container .container-fluid .section-actualites .actualites .section-ouverture .ouverture h5{
+	margin-bottom: 0px;
+}
+.container .container-fluid .section-actualites .actualites .section-vente, 
+.container .container-fluid .section-actualites .actualites .section-ouverture{
+	padding: 15px 0;
+}
+
+.container .container-fluid .section-actualites .service .parag-service{
+    padding: 7% 4% 0;
+}
+.container .container-fluid .section-actualites .service .parag-service p{
+	margin:0;
+}
+
+.container .container-fluid .section-actualites .service .title-service h1{
+    position: absolute;
+    background: #ebebeb;
+    top: -62px;
+    left: 60px;
+    margin: 0;
+    padding: 0 1%;
+}
+
+.container .container-fluid .section-actualites .service{
+
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 10% 0 0 0;
+    padding: 2% 0;
+}
+
+.container .container-fluid .first-list-services .remise,
+.container .container-fluid .first-list-services .transmission,
+.container .container-fluid .first-list-services .locaux,
+.container .container-fluid .first-list-services .prestige,
+.container .container-fluid .second-list-services .conseil, 
+.container .container-fluid .second-list-services .seminaire, 
+.container .container-fluid .second-list-services .finance, 
+.container .container-fluid .second-list-services .reseau{
+	text-align: center;
+}
+
+.container .container-fluid .first-list-services .remise h1,
+.container .container-fluid .first-list-services .transmission h1,
+.container .container-fluid .first-list-services .locaux h1,
+.container .container-fluid .first-list-services .prestige h1,
+.container .container-fluid .second-list-services .conseil h1, 
+.container .container-fluid .second-list-services .seminaire h1, 
+.container .container-fluid .second-list-services .finance h1, 
+.container .container-fluid .second-list-services .reseau h1{
+	font-size: 15px;
+    color: #924d9c;
+}
+
+.container .container-fluid .first-list-services p, 
+.container .container-fluid .first-list-services a,
+.container .container-fluid .second-list-services p, 
+.container .container-fluid .second-list-services a  
+{
+	text-align: left;
+}
+.container .container-fluid .first-list-services a,
+.container .container-fluid .second-list-services a  
+{
+ 	text-decoration: none;
+    color: #924d9c;
+}
+ .container .container-fluid .first-list-services .savoir-plus {
+ 	text-align: left;
+ } 
+    
+
+
+
+
+
+
   
 
 
@@ -259,6 +400,72 @@
 	    right: 16.5% !important;
     	top: 72% !important;
 	}
+	.container .container-fluid .form{
+	    margin: 20px 0;
+	}
+	.container .container-fluid .plateforme p {
+		font-size: 20px;
+	}
+	.container .container-fluid .plateforme .btn-inscription button,.container .container-fluid .form .well fieldset legend{
+		font-size: 25px;
+	}
+	.container .container-fluid .form .well .form-group .input-group label, .container .container-fluid .form .well .form-group button{
+		font-size: 21px;
+	}
+	.container .container-fluid .form .well .form-group .select-group select{
+		font-size: 17px;
+	}
+
+	.container .container-fluid .section-actualites .actualites,
+	.container .container-fluid .plateforme{
+		text-align: center;
+	}
+	.container .container-fluid .section-actualites .actualites h1{
+	 	margin:0 auto;
+	}
+	.container .container-fluid .section-actualites .actualites .section-vente .vente h5, 
+	.container .container-fluid .section-actualites .actualites .section-ouverture .ouverture h5,
+	.container .container-fluid .section-actualites .actualites .section-vente .vente h2, 
+	.container .container-fluid .section-actualites .actualites .section-ouverture .ouverture h2,
+	.container .container-fluid .section-actualites .service .parag-service p,
+	.container .container-fluid .section-actualites .actualites .section-vente .vente p,
+	.container .container-fluid .section-actualites .actualites .section-ouverture .ouverture p
+	{
+		font-size: 28px;
+	}
+	.container .container-fluid .section-actualites .service{
+		text-align: center;
+	}
+	.container .container-fluid .section-actualites .service .title-service h1{
+		font-size: 30px;
+	}
+
+	.container .container-fluid .section-actualites .service .title-service h1{
+		font-size: 30px;
+	}
+	.container .container-fluid .section-actualites{
+		padding: 25px 0;
+	}
+	.container .container-fluid .first-list-services p, 
+	.container .container-fluid .first-list-services a,
+	.container .container-fluid .first-list-services h1,
+	.container .container-fluid .first-list-services .remise h1, 
+	.container .container-fluid .first-list-services .transmission h1, 
+	.container .container-fluid .first-list-services .locaux h1, 
+	.container .container-fluid .first-list-services .prestige h1{
+		font-size: 24px;
+	}
+	.container .container-fluid .first-list-services img{
+		width: 28%;
+	}
+	
+
+
+
+
+}
+
+
 	
 }
 
@@ -306,7 +513,19 @@
 	.header .section-middle .section-middle-price .price h4,
 	.header .section-middle .section-middle-price .price p,
 	.container .container-fluid .plateforme h1, 
-	.container .container-fluid .plateforme p {
+	.container .container-fluid .plateforme p,
+	.container .container-fluid .form .well fieldset legend,
+	.container .container-fluid .form .well .form-group .input-group label,
+	.container .container-fluid .form .well .form-group .select-group select,
+	.container .container-fluid .form .well .form-group .select-group select option,
+	.container .container-fluid .plateforme .btn-inscription button,
+	.container .container-fluid .section-actualites,
+	.container .container-fluid .list-services
+
+
+
+
+	{
 		font-family: "Hind", serif;
 	}
 	
