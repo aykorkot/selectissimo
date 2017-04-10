@@ -305,7 +305,7 @@
 .container .container-fluid .second-list-services .seminaire h1, 
 .container .container-fluid .second-list-services .finance h1, 
 .container .container-fluid .second-list-services .reseau h1{
-	font-size: 15px;
+	font-size: 25px;
     color: #924d9c;
 }
 
@@ -325,6 +325,7 @@
  .container .container-fluid .first-list-services .savoir-plus {
  	text-align: left;
  } 
+
     
 
 
@@ -332,23 +333,10 @@
 
 
 
-  
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* BREAK POINT */
+/* ----------------------------------------BREAK POINT---------------------------------------- */
 
 @media only screen and (min-width: 1024px) {
   /* desktops */
@@ -452,10 +440,18 @@
 	.container .container-fluid .first-list-services .remise h1, 
 	.container .container-fluid .first-list-services .transmission h1, 
 	.container .container-fluid .first-list-services .locaux h1, 
-	.container .container-fluid .first-list-services .prestige h1{
+	.container .container-fluid .first-list-services .prestige h1,
+	.container .container-fluid .second-list-services p, 
+	.container .container-fluid .second-list-services a,
+	.container .container-fluid .second-list-services h1,
+	.container .container-fluid .second-list-services .remise h1, 
+	.container .container-fluid .second-list-services .transmission h1, 
+	.container .container-fluid .second-list-services .locaux h1, 
+	.container .container-fluid .second-list-services .prestige h1{
 		font-size: 24px;
 	}
-	.container .container-fluid .first-list-services img{
+	.container .container-fluid .first-list-services img,
+	.container .container-fluid .second-list-services img{
 		width: 28%;
 	}
 	
@@ -481,7 +477,7 @@
 
 
 
-/*END OF BREAK POINT*/
+/*---------------------------------------END OF BREAK POINT-----------------------------/
 
 
 /*FONTS*/
